@@ -25,6 +25,8 @@
             android:label="@string/title_activity_sign_up"
             android:parentActivityName="g.pher.ribbit.LoginActivity">
         </activity>
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     </application>
 
 </manifest>
